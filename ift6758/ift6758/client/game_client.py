@@ -3,11 +3,10 @@ import pandas as pd
 import numpy as np
 import requests
 import json
-from ift6758.data.functions import loadstats_pergame
-from ift6758.data.tidyData_single import tidyData_single
-from ift6758.data.functions import pre_process
+from Tidy_Data_fun.py import *
+
 import logging
-from ift6758.ift6758.client.serving_client import ServingClient
+
 
 logger = logging.getLogger(__name__)
 s = ServingClient()
