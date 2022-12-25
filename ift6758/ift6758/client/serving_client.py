@@ -2,10 +2,7 @@ import json
 import requests
 import pandas as pd
 import logging
-from ift6758.data.tidyData_adv import tidyData_adv
-from ift6758.data.functions import pre_process
 
-# import ift6758.data.tidyData_adv as tidyData_adv
 
 
 logger = logging.getLogger(__name__)
